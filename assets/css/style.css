@@ -1,3 +1,18 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .logo-mario {
   width: 200px;
+}
+
+.imagem-mario-luigi {
+  height: 600px;
+}
+
+.caixa-principal {
+  width: 40%;
 }
