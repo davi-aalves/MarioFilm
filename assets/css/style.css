@@ -65,3 +65,29 @@ button {
 	margin-top: 15px;
 	cursor: pointer;
 }
+
+.fale-conosco {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+input {
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  outline-color: chartreuse;
+}
+
+textarea {
+  height: 90px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 10px;
+  outline-color: chartreuse;
+}
