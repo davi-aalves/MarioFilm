@@ -26,7 +26,7 @@
 				Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos
 				- Mario e Luigi!
 			</p>
-			<button>Fale conosco</button>
+			<button onclick="cliqueiNoBotao()">Fale conosco</button>
 		</div>
 
 		<img
@@ -35,11 +35,14 @@
 			class="imagem-mario-luigi"
 		/>
 
-		<form class="fale-conosco">
-			<input placeholder="Seu nome" type="text" />
-			<input placeholder="Seu telefone" type="tel" />
-			<textarea placeholder="Digite o seu problema aqui"></textarea>
-			<button>Enviar informações</button>
+		<form class="fale-conosco" action="https://formsubmit.co/7650046c85b33234d9933c6b91081725" method="POST">
+			<input placeholder="Seu nome" type="text" name="nome" />
+			<input placeholder="Seu telefone" type="tel" name="telefone"/>
+			<textarea placeholder="Digite o seu problema aqui" name="info"></textarea>
+			<button onclick="sumirFormulario()">Enviar informações</button>
 		</form>
+
+		<div class="mascara-form"></div>
 	</body>
+	<script src="/assets/js/script.js"></script>
 </html>
